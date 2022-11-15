@@ -1,0 +1,33 @@
+{
+    "dialogo":[
+        {
+            "mensagens": ["O que é matemática?", "Pra que serve a matemática?"],
+            "resposta":"A matemática é a ciência do raciocínio lógico e abstrato, que estuda quantidades, espaço e medidas, estruturas, variações e estatística. \nTrata-se de um ramo do conhecimento extremamente útil para a resolução de problemas, sejam eles cotidianos, sejam de caráter técnico-científico. "
+            
+        },
+        {
+            "mensagens": ["Quais são as áreas da matemática?"],
+            "resposta": "Suas principais áreas são; aritmética, álgebra e geometria, além de: matemática financeira, estatística e probabilidade."
+        },
+        {
+            "mensagens": ["Uma curiosidade sobre matemática?"],
+            "resposta": "A palavra matemática é originada do grego μ?θημα (mathema), que, em tradução livre, significa 'aquilo que pode ser aprendido'."
+        },
+        {
+            "mensagens": ["Onde trabalha o profissional de Matemática?", "Qual a carreira de alguém que estuda Matemática?", "Onde posso trabalhar?"],
+            "resposta": "As principais áreas de atuação do profissional de Matemática são: Docência, Produção de Material Didático, Pesquisas, Medicina, Design de produtos, Economia e Informática."
+        },
+        {
+            "mensagens": ["Quais as definições você tem?", "Sobre quais definições você pode falar?", "Quais definições você possui?"],
+            "resposta": "No momento só possuo alguns conceitos sobre Geometria, o que gostaria de saber?"
+        },
+        {
+            "mensagens": ["Existe algum curso de matemática em Vitória da Conquista?", "Tem curso de Matemática em Vitória da Conquista?"],
+            "resposta": "Em Vitória da Conquista - Bahia, existe o curso presencial de licenciatura em Matemática na Universidade Estadual do Sudoeste da Bahia(UESB), além de diversos cursos a distância. Para mais informações acesse: http://www.uesb.br/"
+        },
+        {
+            "mensagens": ["Como posso fazer para adentrar no curso de matemática?", "Como cursar Matemática?", "Como me matricular em Matemática"],
+            "resposta": "Existem diversas formas, uma delas é o Exame Nacional do Ensino Médio(ENEM), para mais informações acesse: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "dialogo": [
+        {
+            "mensagens": [ "O que é Geometria?", "Qual o conceito de Geometria?", "Qual a definição de Geometria?"  ],
+            "resposta": "A Geometria é uma das três grandes áreas da Matemática, ao lado de cálculo e álgebra. A palavra “geometria” tem origem grega e sua tradução literal é: “medir a terra”. Essa informação nos dá pistas de como nasceu e o motivo pelo qual ela se desenvolveu durante os séculos."
+        },
+        {
+            "mensagens": [ "O que é uma reta?", "Qual o conceito de reta?" , "Qual a definição de reta?" ],
+            "resposta": "Dados dois pontos, existe uma única reta que os contém. Portanto, retas podem ser 'desenhadas' a partir de apenas dois pontos, contudo, elas são infinitas tanto na direção do primeiro ponto quanto na direção do segundo."
+        },
+        {
+            "mensagens": [ "O que é uma semi reta?", "Qual o conceito de semirreta?" , "Qual a definição de semi-reta?" ],
+            "resposta": "As semirretas fazem parte dos estudos da geometria e apresentam um ponto de origem. Esse ponto indica seu início, no entanto, elas não apresentam um fim, ou seja, são infinitas."    
+        },
+        {
+            "mensagens": [ "O que é um ponto?", "Qual o conceito de ponto?", "Qual a definição de ponto?"  ],
+            "resposta": "O ponto não possui forma nem dimensão. Isso significa que o ponto é um objeto adimensional. Um dos usos mais importantes do ponto refere-se à localização geográfica."
+        },
+        {
+            "mensagens": [ "O que é um círculo?", "Qual o conceito de cícrulo?" , "Qual a definição de cícrulo?" ],
+            "resposta": "A definição de círculo está intimamente ligada à definição de circunferência. Um círculo é um conjunto de pontos resultantes da união de uma circunferência com todos os seus pontos internos. Desse modo, ao preencher uma piscina circular de água, por exemplo, a borda dessa piscina e a superfície da água compõem um círculo."    
+        },
+        {
+            "mensagens": [ "O que é um Quadrado?", "Qual o conceito de Quadrado?", "Qual a definição de Quadrado?" ],
+            "resposta": "Trata-se de uma figura geométrica plana poligonal e convexa que possui quatro lados congruentes e quatro ângulos também congruentes e retos. O quadrado é um polígono convexo que possui quatro lados. Em outras palavras, é uma figura geométrica plana que possui quatro lados congruentes e quatro ângulos retos."    
+        },
+        {
+            "mensagens": [ "O que é um triângulo?", "Qual o conceito de triângulo?", "Qual a definição de triângulo?" ],
+            "resposta": "O triângulo é um polígono de três lados. O triângulo é um polígono que possui três lados. Ele é o polígono mais simples, pois possui o menor número de lados. Os principais elementos dessa figura geométrica são os seus três lados e os três ângulos."    
+        },
+        {
+            "mensagens": [ "O que é um Paralelogramo", "Qual o conceito de Paralelogramo?", "Qual a definição de Paralelogramo?" ],
+            "resposta": "Paralelogramos são figuras geométricas que possuem apenas quatro lados, sendo os lados opostos paralelos. Isso significa que os lados opostos de um paralelogramo são segmentos de reta pertencentes a retas que não se tocam em ponto algum."    
+        },
+        {
+            "mensagens": [ "O que é uma Tese?", "Qual o conceito de Tese?", "Qual a definição de Tese?" ],
+            "resposta": "Tese é um assunto, um tema, um objeto. É uma proposição que se apresenta para ser discutida e defendida por alguém, com base em determinadas hipóteses ou pressupostos. Do grego 'thesis' que significa 'proposição' A expressão 'em tese' significa 'de modo geral', 'de acordo com o que se supõe', 'em princípio', 'em teoria'."    
+        },
+        {
+            "mensagens": [ "O que é um Corolário?", "Qual o conceito de Corolário?", "Qual a definição de Corolário?" ],
+            "resposta": "Corolário significa o resultado proveniente de outros resultados, uma verdade ou afirmação que é gerada como consequência de um argumento ou situação precedente. O corolário é aquilo que consiste na continuidade de determinada ação ou fato, representando na sua complementação. Também pode-se entender por corolário a continuação de um pensamento, argumento ou raciocínio."    
+        },
+        {
+            "mensagens": [ "O que é um Plano?", "Qual o conceito de Plano?", "Qual a definição de Plano?" ],
+            "resposta": "Planos são figuras geométricas bidimensionais formadas pela reunião de infinitas retas, perpendiculares a uma reta dada, dispostas lado a lado. Essa figura é considerada na Geometria como um conceito primitivo. Isso acontece porque, na realidade, não existe definição para ponto, reta e plano. Temos apenas uma “ideia primitiva” de como essas figuras são e/ou do seu formato."    
+        },
+        {
+            "mensagens": [ "O que é um polígono convexo?", "Qual o conceito de polígono convexo?", "Qual a definição de polígono convexo?" ],
+            "resposta": "Um polígono é convexo quando todos os pontos de um segmento de reta que possui as extremidades no interior do polígono também estão dentro dele."    
+        },
+        {
+            "mensagens": [ "O que é um polígono?", "Qual o conceito de polígono?", "Qual a definição de polígono?" ],
+            "resposta": "Os polígonos são linhas fechadas formadas apenas por segmentos de reta que não se cruzam a não ser em suas extremidades. Esses segmentos de reta nos polígonos são chamados de lados, assim, outra definição, mais comum que a primeira, é a seguinte: polígonos são figuras geométricas inteiramente formadas por lados."   
+        },
+        {
+            "mensagens": [ "O que é um área?", "Qual o conceito de área?", "Qual a definição de área?" ],
+            "resposta": "Área é um conceito matemático que pode ser definida como quantidade de espaço bidimensional, ou seja, de superfície. Existem várias unidades de medida de área, sendo a mais utilizada o metro quadrado (m²) e os seus múltiplos e sub-múltiplos."    
+        },
+        {
+            "mensagens": [ "O que é um perimetro?", "Qual o conceito de perimetro?", "Qual a definição de perimetro?" ],
+            "resposta": "Perímetro é uma medida observada em figuras geométricas planas, isto é, figuras bidimensionais. Ele é definido como a medida do contorno de uma figura geométrica, logo, é uma medida de comprimento."    
+        },
+        {
+            "mensagens": [ "O que é um volume?", "Qual o conceito de volume?", "Qual a definição de volume?"  ],
+            "resposta": "Do latim volūmen, o conceito de volume permite referir-se à corpulência ou ao vulto de algo. Por isso, refere-se à magnitude (ou grandeza) física que expressa a extensão de um corpo em três dimensões (comprimento, largura e altura). No Sistema Internacional (S.I.), a sua unidade é o metro cúbico (m3)."    
+        }
+    ]
+}
