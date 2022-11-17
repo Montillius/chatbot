@@ -2,15 +2,15 @@
     "dialogo":[
         {
             "mensagens": ["O que é matemática?", "Pra que serve a matemática?"],
-            "resposta":"A matemática é a ciência do raciocínio lógico e abstrato, que estuda quantidades, espaço e medidas, estruturas, variações e estatística. \nTrata-se de um ramo do conhecimento extremamente útil para a resolução de problemas, sejam eles cotidianos, sejam de caráter técnico-científico. "
+            "resposta":"A matemática é a ciência do raciocínio lógico e abstrato, que estuda quantidades, espaço e medidas, estruturas, variações e estatística. \nTrata-se de um ramo do conhecimento extremamente útil para a resolução de problemas, sejam eles cotidianos, sejam de caráter técnico-científico."
             
         },
         {
-            "mensagens": ["Quais são as áreas da matemática?"],
+            "mensagens": ["Quais são as áreas da matemática?", "Que áreas compoem a matemática?"],
             "resposta": "Suas principais áreas são; aritmética, álgebra e geometria, além de: matemática financeira, estatística e probabilidade."
         },
         {
-            "mensagens": ["Uma curiosidade sobre matemática?"],
+            "mensagens": ["Uma curiosidade sobre matemática?", "Alguma curiosidade sobre a matemática", "Me diz alguma curiosidade sobre a matemática!"],
             "resposta": "A palavra matemática é originada do grego μ?θημα (mathema), que, em tradução livre, significa 'aquilo que pode ser aprendido'."
         },
         {
@@ -18,7 +18,7 @@
             "resposta": "As principais áreas de atuação do profissional de Matemática são: Docência, Produção de Material Didático, Pesquisas, Medicina, Design de produtos, Economia e Informática."
         },
         {
-            "mensagens": ["Quais as definições você tem?", "Sobre quais definições você pode falar?", "Quais definições você possui?"],
+            "mensagens": ["Quais as definições você tem?", "Sobre quais definições você pode falar?", "Quais definições você possui?", "Quais conceitos você possui?"],
             "resposta": "No momento só possuo alguns conceitos sobre Geometria, o que gostaria de saber?"
         },
         {

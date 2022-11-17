@@ -3,15 +3,14 @@ var http = require('http');
 var server = http.Server(app)
 var io = require('socket.io')(server);
 var port = process.env.PORT || 3000;
-const urlRobo = 'http://127.0.0.1:5000/resposta/'
-//var botURL = 'http://127.0.0.1:5000/'
+const urlBot = 'http://127.0.0.1:5000/resposta/'
 
 app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
 getRespostaDoBot = (msg) => {
-  const url = urlRobo + msg
+  const url = urlBot + msg
   http.get(url, (response) => {
     let data = '';
     response.on('data', (chunk) => {

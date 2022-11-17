@@ -1,39 +1,73 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Socket.IO chat</title>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceitos Matemáticos</title>
+    
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
       body { font: 13px Helvetica, Arial; }
-      form { background: #000; padding: 10px; position: fixed; bottom: 0; width: 100%; }
-      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+      form { background: #B0C4DE; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; color:black}
       form button { width: 9%; background: rgb(234, 237, 238); border: none; padding: 10px; }
-      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages { list-style-type: none; margin: 0; padding: 0; color:#2e4daa; font-weight: bold; }
       #messages li { padding: 5px 10px; }
-      #messages li:nth-child(odd) { background: #eee; }
+      #messages li:nth-child(odd) { background: #eee; color:black }
       #messages { margin-bottom: 40px }
+
+      @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
+      body {
+        background: #f2f2f2;
+        background-image: url(https://isinnova.it/app/uploads/2021/03/matematica-blog-isinnova-inventare.jpg);
+      }
+
+      .container  {
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        height: 350px;
+        width: 600px;
+        background: #f2f2f2;
+        border-radius: 20px;
+        box-shadow: 0 0 15px 8px #8abae0;
+        overflow: auto;
+        overflow-anchor: unset;
+      
+      }
     </style>
-  </head>
-  <body>
+
+</head>
+<body>
+
+  <div class="container">
     <ul id="messages"></ul>
-    <form action="">
-      <input id="m" autocomplete="off" /><button>Enviar</button>
-    </form>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-    <script>
-      $(function () {
-        var socket = io();
-        $('form').submit(function(){
-          socket.emit('chat message', $('#m').val());
-          $('#m').val('');
-          return false;
-        });
-        socket.on('chat message', function(msg){
-          $('#messages').append($('<li>').text(msg));
-          window.scrollTo(0, document.body.scrollHeight);
-        });
+  </div>
+
+  <form action="">
+    <input id="m" autocomplete="off" /><button>Enviar</button>
+  </form>
+
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script>
+    $(function () {
+      var socket = io();
+      $('form').submit(function(){
+        socket.emit('chat message', $('#m').val());
+        $('#m').val('');
+        return false;
       });
-    </script>
-  </body>
+      socket.on('chat message', function(msg){
+        $('#messages').append($('<li>').text(msg));
+        window.scrollTo(0, document.body.scrollIntoView);
+      });
+    });
+  </script>
+
 </html>

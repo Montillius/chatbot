@@ -29,7 +29,7 @@
             "resposta": "O triângulo é um polígono de três lados. O triângulo é um polígono que possui três lados. Ele é o polígono mais simples, pois possui o menor número de lados. Os principais elementos dessa figura geométrica são os seus três lados e os três ângulos."    
         },
         {
-            "mensagens": [ "O que é um Paralelogramo", "Qual o conceito de Paralelogramo?", "Qual a definição de Paralelogramo?" ],
+            "mensagens": [ "O que é um Paralelogramo?", "Qual o conceito de Paralelogramo?", "Qual a definição de Paralelogramo?" ],
             "resposta": "Paralelogramos são figuras geométricas que possuem apenas quatro lados, sendo os lados opostos paralelos. Isso significa que os lados opostos de um paralelogramo são segmentos de reta pertencentes a retas que não se tocam em ponto algum."    
         },
         {
